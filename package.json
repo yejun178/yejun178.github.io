@@ -1,0 +1,34 @@
+{
+  "name": "my-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^2.8.0",
+    "antd": "^4.15.6",
+    "dayjs": "^1.10.4",
+    "express": "^4.18.1",
+    "next": "10.2.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-syntax-highlighter": "^15.4.3"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhn-kai/my-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhn-kai/my-blog/issues"
+  },
+  "homepage": "https://github.com/nhn-kai/my-blog#readme"
+}
